@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleWrapper {
+  flex: 1;
+  text-align: center;
+  color: #494848;
+  font-family: 'Sanuk LF';
+  font-size: 24pt;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.menuButtonsWrapper {
+  /* display: flex; */
+  /* align-content: center; */
+  /* align-items: center; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  /* align-content: center;
+  align-items: center; */
+  /* align-self: center; */
+  /* justify-content: center; */
+}
+
+.menuButton {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 190px;
+  align-items: center;
+  justify-content: center;
+}
+
+.borderA {
+  border-right: 1px solid #afafaf;
+  border-bottom: 1px solid #afafaf;
+}
+
+.borderB {
+  border-bottom: 1px solid #afafaf;
+}
+
+.borderC {
+  border-right: 1px solid #afafaf;
+}
+
+.logo {
+  width: 57px;
+  margin-bottom: 10px;
+}
+
+.menuButtonTitle {
+  color: #494848;
+  font-family: 'Sanuk LF';
+  font-size: 14pt;
+}

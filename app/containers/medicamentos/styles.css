@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  /* padding: 20px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.titleWrapper {
+  flex: 1;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.title {
+  color: #494848;
+  font-family: 'Sanuk LF';
+  font-size: 24pt;
+}
+
+.subtitle {
+  color: #494848;
+  font-family: 'Sanuk LF';
+  font-size: 14pt;
+}
+
+.menuWrapper {
+  /* width: 80px; */
+  /* background: red; */
+}

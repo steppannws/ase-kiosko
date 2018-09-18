@@ -1,0 +1,12 @@
+{
+  "name": "ase-kiosko",
+  "productName": "ASE-kiosko",
+  "version": "1.0.0",
+  "description": "ASE-kiosko",
+  "main": "./main.prod.js",
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "dependencies": {}
+}

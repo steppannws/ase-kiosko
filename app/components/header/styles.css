@@ -1,0 +1,56 @@
+.container {
+  background: #fff;
+  height: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  /* border-radius: 10px; */
+  border-top: 10px solid #da7a2d;
+  color: #fff;
+  font-family: 'Sanuk LF';
+  font-size: 10pt;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+  display: flex;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoWrapper {
+  align-self: center;
+}
+
+.logo {
+  display: flex;
+  height: 60px;
+}
+
+.rightContentWrapper {
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.greetingsText {
+  color: #494848;
+  font-family: 'Sanuk LF';
+  font-size: 10pt;
+  align-self: center;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.exitButtonWrapper {
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
